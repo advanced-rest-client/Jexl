@@ -1,7 +1,7 @@
 {
   "name": "jexl",
   "main": "dist/jexl.min.js",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Javascript Expression Language: Powerful context-based expression parser and evaluator",
   "author": "Tom Shawver <tom@frosteddesign.com>",
   "license": "MIT",
