@@ -1,7 +1,10 @@
 .idea
 *.iml
+.project
+.vscode
 
 node_modules
+bower_components
 coverage
 
 .DS_Store
