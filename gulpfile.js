@@ -15,10 +15,9 @@ const mocha = require('gulp-mocha');
 
 gulp.task('dist', function() {
   var b = browserify({
-    entries: './lib/Jexl.js',
-    debug: true
+    paths: ['lib']
   });
-
+  b.require('Jexl');
   return b.bundle()
     .pipe(source('jexl.min.js'))
     .pipe(buffer())
