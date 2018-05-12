@@ -1,10 +1,10 @@
 {
   "name": "jexl",
   "main": "dist/jexl.min.js",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Javascript Expression Language: Powerful context-based expression parser and evaluator",
   "author": "Tom Shawver <tom@frosteddesign.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
     "JSON",
     "expression",
@@ -28,6 +28,6 @@
     "playground.html"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.9.2"
+    "polymer": "Polymer/polymer#^2.0.0"
   }
 }
